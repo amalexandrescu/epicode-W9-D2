@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  height: 5vh;
+}
+
+.footer p {
+  margin-bottom: 0;
+  padding-block: 5px;
+}
+
+.container .jumbotron {
+  margin-bottom: 0;
+  background-color: #202a20;
+  color: white;
+}
+
+.container .card {
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #717275;
+  color: white;
+}
+
+.card .card-body .card-title {
+  font-size: 15px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.main-container {
+  overflow-y: scroll;
+  background-color: #dfe2ed;
+  /* height: calc(100vh -100px); */
+  height: 85vh;
+  /* height: 80%; */
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.main-container .container:first-child {
+  margin-block: 20px;
+}
+
+.footer .container,
+.footer .row {
+  height: 100%;
+}
+
+.footer .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
